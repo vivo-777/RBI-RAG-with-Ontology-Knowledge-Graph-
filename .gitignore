@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Qdrant data
+rbi_rag_v2/qdrant_data*/
+
+# Data, logs, and outputs
+*.pkl
+*_results*.json
+*_results*.md
+*.docx
+debug_*.txt
+chunks_sent_to_llm.md
+pdf_samples.txt
+rbi_rag_v2/audit_logs/
+processed_hashes.json
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

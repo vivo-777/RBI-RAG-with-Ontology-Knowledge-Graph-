@@ -1,0 +1,62 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": "[Block ID: 1, Source: RBI_Master_Direction_CreditGuarantee.pdf]\nBanks are permitted to assign zero percent risk weight to the guaranteed portion of credit facilities extended under the Credit Guarantee Fund Scheme for Micro and Small Enterprises (CGTMSE). The guarantee cover is available for collateral-free credit facilities up to Rs 500 lakh extended by eligible institutions.\n\n[Block ID: 2, Source: RBI_CapitalAdequacy_Circular_2023.pdf]\nCapital funds are broadly classified as Tier 1 and Tier 2 capital. Common Equity Tier 1 must be at least 5.5 percent of risk-weighted assets. Banks must maintain a Capital Conservation Buffer of 2.5 percent, consisting of Common Equity Tier 1 capital.",
+        "question": "What is the minimum Capital to Risk (Weighted) Assets Ratio (CRAR) requirement under Basel III?",
+        "answer": "Under Basel III, as per the RBI Capital Adequacy Circular 2023, banks must maintain a minimum Capital to Risk-Weighted Assets Ratio (CRAR) of 8 percent. This includes a Common Equity Tier 1 requirement of at least 5.5 percent and a Capital Conservation Buffer of 2.5 percent [2]."
+      },
+      {
+        "augmented": true,
+        "context": "[Block ID: 1, Source: RBI_KCC_Guidelines_2024.pdf]\nKisan Credit Card (KCC) scheme is designed to provide adequate and timely credit support to farmers for their cultivation and other needs. Eligible farmers include owner cultivators, tenant farmers, oral lessees, and sharecroppers. The card covers post-harvest expenses, produce marketing loans, consumption requirements, working capital for allied activities such as dairy, fisheries, and poultry. The loan limit for marginal farmers is based on the scale of finance for the crop plus 25 percent of the limit towards post-harvest and household needs.\n\n[Block ID: 2, Source: RBI_PSL_MasterDirection_2024.pdf]\nLoans under KCC scheme are classified under Priority Sector Lending. KCC loans for allied activities up to Rs 2 lakh are eligible for classification under agriculture.",
+        "question": "KCC",
+        "answer": "The Kisan Credit Card (KCC) scheme is designed to provide credit support to farmers including owner cultivators, tenant farmers, oral lessees, and sharecroppers [1]. It covers various needs such as post-harvest expenses, produce marketing loans, consumption requirements, and working capital for allied activities like dairy, fisheries, and poultry [1]. For marginal farmers, the loan limit is based on the scale of finance for the crop plus 25 percent towards post-harvest and household needs. KCC loans for allied activities up to Rs 2 lakh are eligible for classification under agriculture [2]."
+      },
+      {
+        "augmented": true,
+        "context": "[Block ID: 1, Source: RBI_UCB_Cybersecurity_Framework_2023.pdf]\nUrban Co-operative Banks (UCBs) shall implement a Board-approved cybersecurity policy. UCBs in Tier III and Tier IV must appoint a Chief Information Security Officer. All cyber incidents must be reported to CSITE within 6 hours of detection. UCBs shall conduct quarterly vulnerability assessments.\n\n[Block ID: 2, Source: RBI_IT_Framework_Banks_2023.pdf]\nAll Scheduled Commercial Banks shall implement a comprehensive information security governance framework. Banks must establish a Security Operations Centre and report incidents to the RBI within 2 to 6 hours depending on severity classification.",
+        "question": "What are the cybersecurity requirements specifically for foreign banks operating in India?",
+        "answer": "The specific cybersecurity requirements for foreign banks operating in India are not detailed in the provided context blocks. However, foreign banks should refer to the comprehensive information security governance framework outlined in the IT Framework for Banks circular [2], which mandates the establishment of a Security Operations Centre and reporting incidents to the RBI within 2 to 6 hours based on severity classification."
+      },
+      {
+        "augmented": true,
+        "context": "[Block ID: 1, Source: RBI_PSL_MasterDirection_2024.pdf]\nDomestic Scheduled Commercial Banks and foreign banks with 20 branches and above shall have a Priority Sector Lending target of 40 percent of Adjusted Net Bank Credit (ANBC) or Credit Equivalent Amount of Off-Balance Sheet Exposure (CEOBSE), whichever is higher. The agriculture sub-target is 18 percent of ANBC, with a sub-target of 10 percent for Small and Marginal Farmers within agriculture.\n\n[Block ID: 2, Source: RBI_PSL_MasterDirection_2024.pdf]\nAdvances to weaker sections shall be 12 percent of ANBC or CEOBSE, whichever is higher. Micro enterprises under MSME shall have a sub-target of 7.5 percent of ANBC.",
+        "question": "What are the priority sector lending targets for domestic commercial banks?",
+        "answer": "Domestic Scheduled Commercial Banks have a Priority Sector Lending target of 40 percent of Adjusted Net Bank Credit (ANBC) or Credit Equivalent Amount of Off-Balance Sheet Exposure (CEOBSE), whichever is higher. This includes an agriculture sub-target of 18 percent, with a specific sub-target of 10 percent for Small and Marginal Farmers within agriculture [1]. Additionally, there is a target of 12 percent of ANBC or CEOBSE for advances to weaker sections, and a sub-target of 7.5 percent of ANBC for micro enterprises under MSME [2]."
+      },
+      {
+        "context": "[Block ID: 1, Source: RBI_NPA_Classification_2024.pdf]\nA non-performing asset is a loan or advance where interest and/or instalment of principal remains overdue for a period of more than 90 days in respect of a term loan. For agricultural advances, the NPA classification norms are linked to crop seasons: a short-duration crop loan becomes NPA if the instalment of principal or interest remains overdue for two crop seasons, and a long-duration crop loan becomes NPA if overdue for one crop season.\n\n[Block ID: 2, Source: RBI_NPA_Classification_2024.pdf]\nSub-standard assets are those that have remained NPA for a period less than or equal to 12 months. Doubtful assets are those that have remained in the sub-standard category for 12 months. Loss assets are those where loss has been identified but the amount has not been fully written off.",
+        "question": "What are the NPA classification norms for agricultural advances versus standard term loans, and what are the provisioning requirements for each category?",
+        "answer": "For standard term loans, an account turns NPA when interest or principal remains overdue beyond 90 days [1]. Agricultural advances follow crop-season-based norms: short-duration crop loans become NPA after two crop seasons of overdue, and long-duration crop loans after one crop season [1].\n\nOn sub-classification, sub-standard assets are those NPA for up to 12 months, doubtful assets have been sub-standard for 12 months, and loss assets are those identified as losses but not fully written off [2]. The specific provisioning percentages for each category are not detailed in the retrieved context blocks."
+      }
+    ],
+    "signature": {
+      "instructions": "Answer an RBI regulatory question using only the provided context blocks.\nUse only blocks whose entity/scheme type matches what the question asks about.\nCite every number, date, or requirement as [N] where N is the block ID.\nWhen exact info is missing, state adjacent guidance briefly then say the\nspecific detail is not in these circulars. Avoid bullets/headers unless\nthe source is itself a numbered procedure. Never end mid-sentence.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "Retrieved, reranked circular chunks tagged with numeric block IDs"
+        },
+        {
+          "prefix": "Question:",
+          "description": "The user's regulatory query"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Final answer as plain prose with inline [N] citations. No reasoning trace, no XML tags, no code fences."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.14",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

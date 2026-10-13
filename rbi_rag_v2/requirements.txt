@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+qdrant-client
+rank_bm25
+sentence-transformers
+transformers
+torch
+pdfplumber
+PyMuPDF
+networkx
+pydantic
+requests
+groq
+dspy-ai
+python-dotenv
+numpy

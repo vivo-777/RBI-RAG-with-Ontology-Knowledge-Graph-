@@ -1,0 +1,283 @@
+[
+  {
+    "question": "What is the eligible limit for inclusion of Perpetual Debt Instruments (PDIs) issued in foreign currency in Additional Tier 1 (AT1) capital?",
+    "expected_citations": [
+      "BASEL III CAPITAL FRAMEWORK.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Which specific circular regarding Perpetual Debt Instruments (PDI) in Additional Tier 1 Capital was repealed on September 29, 2025?",
+    "expected_citations": [
+      "BASEL III CAPITAL FRAMEWORK.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What is the purpose of the Master Circular on the Kisan Credit Card (KCC) Scheme?",
+    "expected_citations": [
+      "04MCKCC03072017.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "When was the Master Circular on the Lead Bank Scheme updated in 2019?",
+    "expected_citations": [
+      "10MC02072019.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What are the priority sector lending targets and classifications for Commercial Banks as per the 2025 Master Directions?",
+    "expected_citations": [
+      "128MD66C4DDCB167C4DC9A5BD913570CB3D47 (1).pdf",
+      "RBI-PSL-MASTER-DIRECTIONS-24-03-25.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "How are priority sector lending targets defined for Regional Rural Banks?",
+    "expected_citations": [
+      "34MD27062019.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What is the date of the most recent update mentioned in the Master Direction for Lending to Micro, Small & Medium Enterprises (MSME) Sector?",
+    "expected_citations": [
+      "56MD24072017E50D0ED63F9B4414AA756FF0FC72FB66.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What does DAY-NRLM stand for in the context of RBI circulars?",
+    "expected_citations": [
+      "DAY NRLMS.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Are there specific credit facilities or guidelines provided by the RBI for Scheduled Castes (SCs) and Scheduled Tribes (STs)?",
+    "expected_citations": [
+      "dri rbi.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "How are overdrafts in PMJDY accounts classified under Priority Sector Lending?",
+    "expected_citations": [
+      "FID250215CIRNT.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What financial year does the Modified Interest Subvention Scheme for Short Term Loans for Agriculture via KCC cover?",
+    "expected_citations": [
+      "KCC Modified.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Under the MSME Amendment Directions 2026, what changes were made to lending practices?",
+    "expected_citations": [
+      "msme_ammendments.pdf",
+      "NT2068947B327BAC847F58C4A133638920CB7.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What is the purpose of the Direct Benefit Transfer (DBT) Scheme according to the August 2019 circular?",
+    "expected_citations": [
+      "NT4012F92C1AE74349B3BF83FFC345C6F319.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Are collateral-free agricultural loans mentioned in the credit flow to agriculture circular of 2024?",
+    "expected_citations": [
+      "RBI-2024-2025-96_712202414454187.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What is the effective date for the complete rollout of the Regulatory Framework for Microfinance Loans as per the Q&A?",
+    "expected_citations": [
+      "RFML30012025.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Which paragraph of the Master Circular on Basel III Capital Regulations dated April 1, 2022 is referenced in the circular regarding Risk Weights for Exposures guaranteed by Credit Guarantee Schemes?",
+    "expected_citations": [
+      "Sep72022_RBI_RBI_Review_of_Prudential_Norms_in_regard_to_Risk_Weights_for_Exposures_guaranteed_by_Credit_Guarantee_Schemes.PDF"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What does DAY-NRLM stand for, and what financial year does the Modified Interest Subvention Scheme for KCC cover?",
+    "expected_citations": [
+      "DAY NRLMS.pdf",
+      "KCC Modified.pdf"
+    ],
+    "type": "compound"
+  },
+  {
+    "question": "What are the priority sector lending targets for Commercial Banks, and how are overdrafts in PMJDY accounts classified?",
+    "expected_citations": [
+      "128MD66C4DDCB167C4DC9A5BD913570CB3D47 (1).pdf",
+      "RBI-PSL-MASTER-DIRECTIONS-24-03-25.pdf",
+      "FID250215CIRNT.pdf"
+    ],
+    "type": "compound"
+  },
+  {
+    "question": "What is the capital of France?",
+    "expected_citations": [],
+    "type": "out_of_domain"
+  },
+  {
+    "question": "How do you treat a mild fever in a toddler?",
+    "expected_citations": [],
+    "type": "out_of_domain"
+  },
+  {
+    "question": "Can you explain the plot of the movie Inception?",
+    "expected_citations": [],
+    "type": "out_of_domain"
+  },
+  {
+    "question": "What is the risk weight for an exposure guaranteed by a Credit Guarantee Scheme?",
+    "expected_citations": [
+      "Sep72022_RBI_RBI_Review_of_Prudential_Norms_in_regard_to_Risk_Weights_for_Exposures_guaranteed_by_Credit_Guarantee_Schemes.PDF"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Can a borrower have more than one KCC card if they have land in multiple locations?",
+    "expected_citations": [
+      "04MCKCC03072017.pdf",
+      "KCC Modified.pdf"
+    ],
+    "type": "complex"
+  },
+  {
+    "question": "What is the limit for collateral-free agriculture loans as per the latest master circular?",
+    "expected_citations": [
+      "RBI-2024-2025-96_712202414454187.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Under the DAY-NRLM scheme, what is the maximum interest subvention available to Women SHGs?",
+    "expected_citations": [
+      "DAY NRLMS.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Explain the tier 1 capital requirements under Basel III and how PDIs are factored in.",
+    "expected_citations": [
+      "BASEL III CAPITAL FRAMEWORK.pdf"
+    ],
+    "type": "compound"
+  },
+  {
+    "question": "What are the revised criteria for classifying an enterprise as a Micro enterprise under the MSME definition?",
+    "expected_citations": [
+      "msme_ammendments.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Are Urban Cooperative Banks (UCBs) allowed to issue Perpetual Debt Instruments (PDIs)?",
+    "expected_citations": [
+      "BASEL III CAPITAL FRAMEWORK.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Under the PSL guidelines, what is the target for lending to Non-Corporate Farmers (NCFs)?",
+    "expected_citations": [
+      "RBI-PSL-MASTER-DIRECTIONS-24-03-25.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Detail the conditions under which a bank can classify a loan to an NBFC as priority sector lending.",
+    "expected_citations": [
+      "RBI-PSL-MASTER-DIRECTIONS-24-03-25.pdf"
+    ],
+    "type": "compound"
+  },
+  {
+    "question": "What is the maximum age of a default that can be reported to Credit Information Companies (CICs) for microfinance loans?",
+    "expected_citations": [
+      "RFML30012025.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "How does the Lead Bank Scheme allocate responsibilities for financial inclusion at the district level?",
+    "expected_citations": [
+      "Master-circular-on-lead-bank-scheme.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What are the specific eligibility criteria for farmers to avail the benefits of the Modified Interest Subvention Scheme (MISS)?",
+    "expected_citations": [
+      "KCC Modified.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Describe the mechanism for resolving disputes between banks regarding lead bank responsibilities.",
+    "expected_citations": [
+      "Master-circular-on-lead-bank-scheme.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Under what circumstances can a bank invoke the Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) guarantee?",
+    "expected_citations": [
+      "Sep72022_RBI_RBI_Review_of_Prudential_Norms_in_regard_to_Risk_Weights_for_Exposures_guaranteed_by_Credit_Guarantee_Schemes.PDF"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What are the limits on household income for a borrower to be eligible for a microfinance loan under the 2025 framework?",
+    "expected_citations": [
+      "RFML30012025.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "How is the Adjusted Net Bank Credit (ANBC) calculated for the purpose of PSL targets?",
+    "expected_citations": [
+      "128MD66C4DDCB167C4DC9A5BD913570CB3D47 (1).pdf",
+      "128MD66C4DDCB167C4DC9A5BD913570CB3D47 (1).pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What are the guidelines for the issuance of Electronic Bank Guarantee (e-BG) under the latest RBI circular?",
+    "expected_citations": [
+      "6a38ce305640d_ET_AI_Hackathon_2026_Problem_Statements.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "What are the penalties for banks failing to meet their Priority Sector Lending targets?",
+    "expected_citations": [
+      "RBI-PSL-MASTER-DIRECTIONS-24-03-25.pdf"
+    ],
+    "type": "factual"
+  },
+  {
+    "question": "Under the DRI scheme, what is the maximum quantum of loan that can be provided to a single borrower?",
+    "expected_citations": [
+      "dri rbi.pdf"
+    ],
+    "type": "factual"
+  }
+]
